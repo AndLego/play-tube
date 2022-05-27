@@ -1,0 +1,38 @@
+ul {
+    border-bottom: initial;
+  }
+  
+  .layout {
+    grid-template-columns: 7.5% 92.5%;
+  }
+
+/* NAVBAR */
+
+aside {
+    padding-right: initial;
+    overflow-y: hidden;
+    overscroll-behavior-y: none;
+  }
+  
+  .aside--list {
+    padding: 0;
+  }
+  
+  .aside--list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    padding: 16px 0;
+    height: 6.8rem;
+  }
+  
+  .aside--list i {
+    margin-right: initial;
+    margin-bottom: 8px;
+  }
+  
+  .gone {
+    display: none;
+  }
+

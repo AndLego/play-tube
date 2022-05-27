@@ -1,0 +1,28 @@
+
+
+.header--search {
+  justify-content: flex-end;
+}
+
+.header--profile {
+  width: 25%;
+}
+
+.header--button__blue {
+  height: 34px;
+  font-size: 1.2rem;
+}
+
+/* CONTENT VIDEOS */
+
+.videos--row {
+  grid-template-columns: repeat(3, minmax(240px, 290px));
+}
+
+.videos--row .video:nth-child(7), .videos--row .video:nth-child(8) {
+  display: none;
+}
+
+.videos--row:nth-child(2) .video:nth-child(4) {
+  display: none;
+}

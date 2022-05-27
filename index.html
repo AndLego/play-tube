@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/290ac6f052.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+    rel="stylesheet"
+    href="/1300px.css"
+    media="screen and (max-width: 1300px)"
+  />
+    <link
+      rel="stylesheet"
+      href="/1150px.css"
+      media="screen and (max-width: 1140px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/860px.css"
+      media="screen and (max-width: 860px)"
+    />
+    <title>PlayTube</title>
+  </head>
+  <body>
+    <div class="layout">
+      <header>
+        <div class="header--logo">
+          <button class="header--button" type="button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <span class="logo--icon"><i class="fa-brands fa-youtube"></i></span>
+          <p>PlayTube</p>
+          <span class="co">CO</span>
+        </div>
+        <div class="header--search">
+          <form class="header--form" action="">
+            <input class="header--input" type="text" placeholder="Search" />
+            <button class="header--button" type="button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button class="header--button" type="button">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+        <div class="header--profile">
+          <a href="#"><span class="grid--logo"></span></a>
+          <button class="header--button" type="button">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          <button class="header--button header--button__blue" type="button">
+            <i class="fa-regular fa-circle-user"></i> SIGN IN
+          </button>
+        </div>
+      </header>
+      <aside>
+        <ul class="aside--list new">
+          <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+          <li><i class="fa-solid fa-house"></i><a href="#">Explore</a></li>
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Shorts</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Subscriptions</a>
+          </li>
+        </ul>
+        <ul class="aside--list new">
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Library</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">History</a>
+          </li>
+        </ul>
+        <div class="aside--sign gone">
+          <p>Sign in to like videos, comment, and suscribe.</p>
+          <button class="header--button header--button__blue" type="button">
+            <i class="fa-regular fa-circle-user"></i> SIGN IN
+          </button>
+        </div>
+        <ul class="aside--list gone">
+          <h2>BEST OF PLAYTUBE</h2>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Music</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Sports</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Gaming</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Live</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Learning</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">360° Video</a>
+          </li>
+        </ul>
+        <div class="channels gone">
+          <span><i class="fa-regular fa-compass"></i></span>
+          <p>Browse channels</p>
+        </div>
+        <ul class="aside--list gone">
+          <h2>MORE FROM PlayTube</h2>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">PlayTube Premium</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Live</a>
+          </li>
+        </ul>
+        <ul class="aside--list gone">
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Settings</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Report history</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-compass"></i>
+            <a href="#">Send feedback</a>
+          </li>
+        </ul>
+        <div class="aside--info gone">
+          <a href="#">About</a>
+          <a href="#">Press</a>
+          <a href="#">Copyright</a>
+          <a href="#">Contact us</a>
+          <a href="#">Creators</a>
+          <a href="#">Advertise</a>
+          <a href="#">Developers</a>
+        </div>
+        <div class="aside--info gone">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Policy & Safety</a>
+          <a href="#">How PlayTube works</a>
+          <a href="#">Test new features</a>
+        </div>
+        <span class="copyright gone">©️ 2022 AndLego</span>
+      </aside>
+      <ul class="tags">
+        <li class="tags--item">All</li>
+        <li class="tags--item">Music</li>
+        <li class="tags--item">Live</li>
+        <li class="tags--item">Deep House</li>
+        <li class="tags--item">Bossa Nova</li>
+      </ul>
+      <main class="videos">
+        <div class="videos--row">
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videos--row">
+          <h2>Trending</h2>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videos--row">
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video--cover">
+              <img src="https://picsum.photos/200" alt="video cover" />
+              <span>10:00</span>
+            </div>
+            <div class="video--details">
+              <img src="https://picsum.photos/201" alt="video profile" />
+              <div class="video--description">
+                <h2 class="video--title">
+                  Create your portfolio #PlatziChallenge
+                </h2>
+                <p>Platzi</p>
+                <p>1000 views - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

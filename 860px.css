@@ -1,0 +1,24 @@
+header{
+    padding: 0 4px 0 8px;
+}
+
+aside {
+    display: none;
+}
+
+.header--logo{
+    width: 20%;
+}
+
+.layout {
+    grid-template-columns: 0% 100%
+  }
+
+.videos--row {
+  grid-template-columns: repeat(2, minmax(240px, 290px));
+  justify-content: center;
+}
+
+.videos--row:nth-child(2) .video:nth-child(3) {
+  display: none;
+}
